@@ -74,6 +74,19 @@
             }
           }
         }
+      },
+      "mk-offfer-card-time-badge": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.04",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "surface-hover": {
@@ -206,7 +219,7 @@
         "type": "color"
       },
       "input": {
-        "value": "$palette.grey.60",
+        "value": "$palette.grey.82",
         "type": "color"
       },
       "input-error": {
@@ -347,6 +360,47 @@
               }
             }
           }
+        },
+        "regular": {
+          "default": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.15",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "disabled": {
+            "value": "{palette.base.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "lch"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -367,6 +421,21 @@
         "01": {
           "value": "{palette.grey.30}",
           "type": "color"
+        }
+      }
+    },
+    "suface-alpha": {
+      "primary-0": {
+        "value": "{color.surface.primary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
         }
       }
     }

@@ -32,6 +32,19 @@
       "mk-surface-offer-card-badge": {
         "value": "{palette.mk.badge-blue}",
         "type": "color"
+      },
+      "sub-header-item": {
+        "value": "{palette.brand.casa-primary-dark}",
+        "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.blue}",
+        "type": "color"
+      },
+      "safebet": {
+        "value": "{palette.lime.140}",
+        "type": "color",
+        "description": "SafeBet surface, cross-brand, opaque. Dark modes (FTN, CP, PSK Dark, LobBet): palette/lime/10. Light modes: palette/lime/140. Colour Foundation V2."
       }
     },
     "surface-hover": {
@@ -117,7 +130,7 @@
         "type": "color"
       },
       "on-money": {
-        "value": "$palette.base.black",
+        "value": "$palette.base.white",
         "type": "color"
       },
       "on-win": {
@@ -143,6 +156,27 @@
       "mk-content-offer-card-badge-active": {
         "value": "{palette.base.white}",
         "type": "color"
+      },
+      "on-sub-header": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "on-sub-header-active": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.blue}",
+        "type": "color"
+      },
+      "on-offer-badge": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "on-safebet": {
+        "value": "{palette.lime.10}",
+        "type": "color",
+        "description": "Text on the SafeBet surface. Dark modes: palette/base/white on lime/10. Light modes: palette/lime/10 on lime/140. Colour Foundation V2."
       }
     },
     "meaning": {
@@ -177,6 +211,11 @@
       "live": {
         "value": "$palette.green.20",
         "type": "color"
+      },
+      "safebet": {
+        "value": "{palette.lime.30}",
+        "type": "color",
+        "description": "SafeBet label, icon and border, cross-brand. Dark: palette/lime/120. Light: palette/lime/30 (lime/120 fails on white). Colour Foundation V2."
       }
     },
     "meaning-hover": {
@@ -217,11 +256,19 @@
         "type": "color"
       },
       "selected": {
-        "value": "$palette.brand.ftn-secondary",
+        "value": "$palette.brand.casa-primary",
         "type": "color"
       },
       "mk-border-offer-badge": {
         "value": "{palette.mk.badge-blue}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{palette.brand.casa-primary}",
+        "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.blue}",
         "type": "color"
       }
     },

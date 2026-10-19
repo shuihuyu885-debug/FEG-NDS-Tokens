@@ -1,0 +1,140 @@
+Change,Token set,Token,Repo main value,New value (Figma),Origin,Reason
+Changed,Global,palette.brand.ftn-secondary,#0125FF,#5507DA,Colour Foundation V2,Fortuna 2026 has no blue. Alias to palette/violet/40.
+Changed,Global,palette.brand.ftn-secondary-dark,#00169E,#260C60,Colour Foundation V2,Alias to palette/violet/10.
+Changed,Global,palette.brand.psk-secondary,#EB0011,#FF0013,Colour Foundation V2,"Official PSK Bright Red #FF0013. White text on it is 3.99 (risk, no library consumer)."
+Changed,Global,palette.brand.ftn-secondary-light,#1F3EFF,#A6A3F6,Colour Foundation V2,Alias to palette/violet/120 #A6A3F6 (closest to the #B99AF4 reference).
+Changed,BASE/Light,color.surface.input,#E3E3E9,#EBEBEF,Colour Foundation V2,Placeholder just under 4.5 (4.48).
+Changed,BASE/Dark,color.border.input,#363644,#7F7F9C,Colour Foundation V2,Input boundary under 3:1 in both themes.
+Changed,BASE/Light,color.border.input,#B0B0BF,#8888A0,Colour Foundation V2,Input boundary under 3:1 in both themes.
+Changed,FTN/Light,color.content.selected,#FFDB01,#5507DA,Colour Foundation V2,Removes the cross-brand Fortuna alias; keeps the yellow accent (12.96).
+Changed,CP/Dark,color.content.selected,#FFDB01,#FFEC00,Colour Foundation V2,Removes the cross-brand Fortuna alias; keeps the yellow accent (12.96).
+Changed,FTN/Light,color.content.active,#0125FF,#5507DA,Colour Foundation V2,Removes the cross-brand Fortuna alias; keeps the yellow accent (12.96).
+Changed,CP/Dark,color.content.active,#FFDB01,#FFEC00,Colour Foundation V2,Removes the cross-brand Fortuna alias; keeps the yellow accent (12.96).
+Changed,FTN/Light,color.content.on-active,#FFFFFF,#000000,Colour Foundation V2,White on Fortuna Yellow fails (1.36).
+Changed,FTN/Dark,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,FTN/Light,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,CP/Light,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,CP/Dark,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,PSK/Light,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,PSK/Dark,color.content.on-money,#000000,#FFFFFF,Colour Foundation V2,Black on money green fails everywhere (3.91).
+Changed,FTN/Dark,color.meaning-hover.positive,#119522,#0D741B,Colour Foundation V2,White on #119522 fails (3.92); Light modes already used #0D741B.
+Changed,CP/Dark,color.meaning-hover.positive,#119522,#0D741B,Colour Foundation V2,White on #119522 fails (3.92); Light modes already used #0D741B.
+Changed,PSK/Dark,color.meaning-hover.positive,#119522,#0D741B,Colour Foundation V2,White on #119522 fails (3.92); Light modes already used #0D741B.
+Changed,FTN/Light,color.border.selected,#0125FF,#5507DA,Colour Foundation V2,PSK blue border disappears on dark (2.25).
+Changed,CP/Light,color.border.selected,#0125FF,#D2252A,Level 1 additions (before V2),PSK blue border disappears on dark (2.25).
+Changed,PSK/Dark,color.border.selected,#1752BF,#75A6FF,Colour Foundation V2,PSK blue border disappears on dark (2.25).
+New,Global,palette.grey.black,,#000000,Level 1 additions (before V2),
+New,Global,palette.brand.ftn-sub-header,,#FAC228,Level 1 additions (before V2),
+New,Global,palette.brand.lob-primary,,#1B8751,Level 1 additions (before V2),
+New,Global,palette.brand.lob-primary-dark,,#167043,Level 1 additions (before V2),
+New,Global,palette.brand.lob-primary-light,,#2AD47F,Level 1 additions (before V2),
+New,Global,palette.badge.green,,#C8E651,Level 1 additions (before V2),
+New,Global,palette.badge.blue,,#256FD2,Level 1 additions (before V2),
+New,Global,palette.badge.red,,#DD3107,Level 1 additions (before V2),
+New,Global,palette.brand.lob-mint,,#4CE588,Level 1 additions (before V2),
+New,Global,palette.brand.lob-green,,#0F2E22,Level 1 additions (before V2),
+New,Global,palette.violet.10,,#260C60,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.20,,#410DA4,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.30,,#4B0CBF,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.40,,#5507DA,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.50,,#600DF3,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.60,,#6519FC,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.70,,#7352FC,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.80,,#775FF6,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.90,,#7C6CF1,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.100,,#897FF2,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.110,,#9791F4,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.120,,#A6A3F6,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.130,,#B7B6F8,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.violet.140,,#ECEDFD,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.brand.casa-yellow,,#FFEC00,Colour Foundation V2,Official Fortuna violets kept exactly at steps 10 and 40; OKLCH UI shades matched to palette/blue lightness. Official Casa Yellow for CP Dark accents.
+New,Global,palette.lime.10,,#3E4719,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.20,,#4A541E,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.30,,#566222,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.40,,#627027,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.50,,#6D7D2C,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.60,,#798B31,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.70,,#859936,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.80,,#91A63B,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.90,,#9DB43F,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.100,,#A9C244,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.110,,#B8D44A,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.120,,#C8E651,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.130,,#DFF092,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,Global,palette.lime.140,,#F3F9CE,Colour Foundation V2,"14 new Base primitives, lime/10 to /140, the SafeBet colour family. Anchors 10, 110, 120, 130, 140 (inferred); 20 to 100 generated. lime/120 has the same value as palette/badge/green #C8E651. Used by SafeBet and the FTN offer badge."
+New,BASE/Dark,color.button.surface.regular.default,,#FFFFFF@10,Level 1 additions (before V2),
+New,BASE/Light,color.button.surface.regular.default,,#000000@8,Level 1 additions (before V2),
+New,BASE/Dark,color.button.surface.regular.hover,,#FFFFFF@15,Level 1 additions (before V2),
+New,BASE/Light,color.button.surface.regular.hover,,#000000@12,Level 1 additions (before V2),
+New,BASE/Dark,color.button.surface.regular.disabled,,#FFFFFF@5,Level 1 additions (before V2),
+New,BASE/Light,color.button.surface.regular.disabled,,#000000@8,Level 1 additions (before V2),
+New,BASE/Dark,color.suface-alpha.primary-0,,#22222A@0,Level 1 additions (before V2),
+New,BASE/Light,color.suface-alpha.primary-0,,#FFFFFF@0,Level 1 additions (before V2),
+New,BASE/Dark,color.surface.mk-offfer-card-time-badge,,#FFFFFF@4,Level 1 additions (before V2),
+New,BASE/Light,color.surface.mk-offfer-card-time-badge,,#FFFFFF = color/surface/primary,Level 1 additions (before V2),
+New,FTN/Dark,color.surface.sub-header-item,,#FAC228 = palette/brand/ftn-sub-header,Level 1 additions (before V2),
+New,FTN/Light,color.surface.sub-header-item,,#FAC228 = palette/brand/ftn-sub-header,Level 1 additions (before V2),
+New,CP/Light,color.surface.sub-header-item,,#991C1F = palette/brand/casa-primary-dark,Level 1 additions (before V2),
+New,CP/Dark,color.surface.sub-header-item,,#991C1F = palette/brand/casa-primary-dark,Level 1 additions (before V2),
+New,PSK/Light,color.surface.sub-header-item,,#1447A6 = palette/brand/psk-primary-dark,Level 1 additions (before V2),
+New,PSK/Dark,color.surface.sub-header-item,,#1447A6 = palette/brand/psk-primary-dark,Level 1 additions (before V2),
+New,FTN/Dark,color.content.on-sub-header,,#292933 = palette/grey/50,Level 1 additions (before V2),Grey on red and green headers fails (3.92 / 3.41).
+New,FTN/Light,color.content.on-sub-header,,#292933 = palette/grey/50,Level 1 additions (before V2),Grey on red and green headers fails (3.92 / 3.41).
+New,CP/Light,color.content.on-sub-header,,#FFFFFF = palette/base/white,Colour Foundation V2,Grey on red and green headers fails (3.92 / 3.41).
+New,CP/Dark,color.content.on-sub-header,,#FFFFFF = palette/base/white,Colour Foundation V2,Grey on red and green headers fails (3.92 / 3.41).
+New,PSK/Light,color.content.on-sub-header,,#DFDFE6 = palette/grey/100,Level 1 additions (before V2),Grey on red and green headers fails (3.92 / 3.41).
+New,PSK/Dark,color.content.on-sub-header,,#DFDFE6 = palette/grey/100,Level 1 additions (before V2),Grey on red and green headers fails (3.92 / 3.41).
+New,FTN/Dark,color.content.on-sub-header-active,,#000000 = palette/base/black,Level 1 additions (before V2),
+New,FTN/Light,color.content.on-sub-header-active,,#000000 = palette/base/black,Level 1 additions (before V2),
+New,CP/Light,color.content.on-sub-header-active,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,CP/Dark,color.content.on-sub-header-active,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,PSK/Light,color.content.on-sub-header-active,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,PSK/Dark,color.content.on-sub-header-active,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,FTN/Dark,color.border.brand,,#FFDB01 = palette/brand/ftn-primary,Level 1 additions (before V2),Yellow on white is unreadable; Electric Violet passes 8.64.
+New,FTN/Light,color.border.brand,,#5507DA = palette/brand/ftn-secondary,Colour Foundation V2,Yellow on white is unreadable; Electric Violet passes 8.64.
+New,CP/Light,color.border.brand,,#D2252A = palette/brand/casa-primary,Level 1 additions (before V2),Yellow on white is unreadable; Electric Violet passes 8.64.
+New,CP/Dark,color.border.brand,,#D2252A = palette/brand/casa-primary,Level 1 additions (before V2),Yellow on white is unreadable; Electric Violet passes 8.64.
+New,PSK/Light,color.border.brand,,#1752BF = palette/brand/psk-primary,Level 1 additions (before V2),Yellow on white is unreadable; Electric Violet passes 8.64.
+New,PSK/Dark,color.border.brand,,#75A6FF = palette/brand/psk-primary-light-content,Colour Foundation V2,Yellow on white is unreadable; Electric Violet passes 8.64.
+New,FTN/Dark,color.surface.offer-badge,,#C8E651 = palette/lime/120,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Light,color.surface.offer-badge,,#798B31 = palette/lime/60,Colour Foundation V2,"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Light,color.surface.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Dark,color.surface.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Light,color.surface.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Dark,color.surface.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Dark,color.content.offer-badge,,#C8E651 = palette/badge/green,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Light,color.content.offer-badge,,#566222 = palette/lime/30,Colour Foundation V2,"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Light,color.content.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Dark,color.content.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Light,color.content.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Dark,color.content.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Dark,color.border.offer-badge,,#C8E651 = palette/badge/green,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Light,color.border.offer-badge,,#798B31 = palette/lime/60,Colour Foundation V2,"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Light,color.border.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,CP/Dark,color.border.offer-badge,,#256FD2 = palette/badge/blue,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Light,color.border.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,PSK/Dark,color.border.offer-badge,,#DD3107 = palette/badge/red,Level 1 additions (before V2),"FTN Dark fill lime/120 (same colour). FTN Light fill lime/60 (black text 5.55, 3.18 vs page), border lime/60 (1.41 → 3.18), text lime/30 (P18 1.41 → 6.63)."
+New,FTN/Dark,color.content.on-offer-badge,,#000000 = palette/base/black,Level 1 additions (before V2),
+New,FTN/Light,color.content.on-offer-badge,,#000000 = palette/base/black,Level 1 additions (before V2),
+New,CP/Light,color.content.on-offer-badge,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,CP/Dark,color.content.on-offer-badge,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,PSK/Light,color.content.on-offer-badge,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,PSK/Dark,color.content.on-offer-badge,,#FFFFFF = palette/base/white,Level 1 additions (before V2),
+New,FTN/Dark,color.surface.safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,FTN/Light,color.surface.safebet,,#F3F9CE = palette/lime/140,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Light,color.surface.safebet,,#F3F9CE = palette/lime/140,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Dark,color.surface.safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Light,color.surface.safebet,,#F3F9CE = palette/lime/140,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Dark,color.surface.safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,FTN/Dark,color.meaning.safebet,,#C8E651 = palette/lime/120,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,FTN/Light,color.meaning.safebet,,#566222 = palette/lime/30,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Light,color.meaning.safebet,,#566222 = palette/lime/30,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Dark,color.meaning.safebet,,#C8E651 = palette/lime/120,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Light,color.meaning.safebet,,#566222 = palette/lime/30,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Dark,color.meaning.safebet,,#C8E651 = palette/lime/120,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,FTN/Dark,color.content.on-safebet,,#FFFFFF = palette/base/white,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,FTN/Light,color.content.on-safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Light,color.content.on-safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,CP/Dark,color.content.on-safebet,,#FFFFFF = palette/base/white,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Light,color.content.on-safebet,,#3E4719 = palette/lime/10,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
+New,PSK/Dark,color.content.on-safebet,,#FFFFFF = palette/base/white,Colour Foundation V2,"SafeBet roles, cross-brand on the lime scale (final state 2026-10-19). surface/safebet opaque: Dark lime/10, Light lime/140. meaning/safebet: Dark lime/120, Light lime/30. on-safebet: Dark white (9.90), Light lime/10 (9.08). History: created 2026-10-16 on badge/green with opacity; moved to lime 2026-10-19."
