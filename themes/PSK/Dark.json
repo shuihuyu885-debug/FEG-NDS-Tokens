@@ -31,7 +31,8 @@
       },
       "mk-surface-offer-card-badge": {
         "value": "{palette.mk.badge-red}",
-        "type": "color"
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.surface.offer-badge (Figma VariableID:5449:3730). Do not use for new work; retirement pending approval."
       },
       "sub-header-item": {
         "value": "{palette.brand.psk-primary-dark}",
@@ -110,11 +111,13 @@
       },
       "mk-content-offer-card-badge": {
         "value": "{palette.mk.badge-red}",
-        "type": "color"
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.content.offer-badge (Figma VariableID:5449:3731). Do not use for new work; retirement pending approval."
       },
       "mk-content-offer-card-badge-active": {
         "value": "{palette.base.white}",
-        "type": "color"
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.content.on-offer-badge (Figma VariableID:5449:3733). Do not use for new work; retirement pending approval."
       },
       "on-sub-header": {
         "value": "{palette.grey.100}",
@@ -234,7 +237,8 @@
       },
       "mk-border-offer-badge": {
         "value": "{palette.mk.badge-red}",
-        "type": "color"
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.border.offer-badge (Figma VariableID:5449:3732). Do not use for new work; retirement pending approval."
       },
       "brand": {
         "value": "{palette.brand.psk-primary-light-content}",

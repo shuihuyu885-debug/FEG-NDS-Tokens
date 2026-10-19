@@ -137,3 +137,16 @@ SafeBet is cross-brand and uses the same values in every brand:
 ## How this was checked
 
 `scripts/resolve-tokens.mjs` resolves every token in every theme, including references, `rgba()` expressions and Tokens Studio modifiers. The results were compared with the resolved Figma value for each variable and mode. After the update, 574 of 576 colour values match. The 2 that do not match are the `alpha-10` and `alpha-20` borders listed above.
+
+## Update 2 (2026-10-19): reconciliation after the parity audit
+
+Figma was re-read live on 2026-10-19 (245 variables, fingerprint 3011441303, unchanged). The branch now matches Figma on 574 of 576 comparable entries, all linked by Figma variable key.
+
+- **`color.content.mk-content-offer-card-badge`** (FTN Dark, FTN Light): the alias is corrected from `{palette.mk.live-green}` (#17CF2F) to `{palette.mk.badge-green}` (#C8E651). The wrong alias came from commit a9f3499. The legacy repo, the deployed runtime and the fix on `sb-mk-token-add` (fef065d) all use badge green.
+- **Legacy offer-badge tokens** (`mk-surface-offer-card-badge`, `mk-content-offer-card-badge`, `mk-content-offer-card-badge-active`, `mk-border-offer-badge`, in 6 sets): each now has a description that names its canonical UDS semantic (`color.surface.offer-badge`, `color.content.offer-badge`, `color.content.on-offer-badge`, `color.border.offer-badge`). They are retained, not renamed or deleted, until retirement is approved.
+- **Partial rollback of a9f3499 on `main`:**
+  - CP Light `border.selected` is restored to `palette.brand.casa-primary`.
+  - `content.on-sub-header` and `on-sub-header-active` are restored for every brand from Figma.
+  - The other residue (offer `mk-*` tokens, `palette.mk.*`, marketing gradients) is legacy and is retained.
+
+Every added or changed token is listed with its Figma evidence in [`change-manifest.csv`](change-manifest.csv).
