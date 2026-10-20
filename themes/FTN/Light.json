@@ -278,15 +278,15 @@
     },
     "gradient": {
       "mk-ako-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.ftn-brand-secondary} , 0) 0%, rgba( {brand.ftn-brand-secondary} , 0.1) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.ftn-secondary} , 0) 0%, rgba( {palette.brand.ftn-secondary} , 0.1) 100%)",
         "type": "color"
       },
       "mk-cas-cs-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.ftn-brand-secondary} , 0) 0%, rgba( {brand.ftn-brand-secondary} , 0.25) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.ftn-secondary} , 0) 0%, rgba( {palette.brand.ftn-secondary} , 0.25) 100%)",
         "type": "color"
       },
       "mk-wc-ako-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.ftn-brand-primary} , 0) 0%, rgba( {brand.ftn-brand-primary} , 0.2) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.ftn-primary} , 0) 0%, rgba( {palette.brand.ftn-primary} , 0.2) 100%)",
         "type": "color"
       },
       "mk-icon-nav-gradient": {

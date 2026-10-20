@@ -159,3 +159,29 @@ Design confirmed that `color.border.alpha-10` and `alpha-20` should be **black**
 - The GitHub values were already black, so no token change was needed.
 
 The branch now matches Figma on **576 of 576** comparable entries. LobBet is excluded because it has no token set.
+
+## Update 4 (2026-10-20): gradients aligned with Figma
+
+The gradient tokens now match the 48 gradient paint styles in the Figma library (8 gradients × FTN, CP and PSK × Dark and Light). Each one was checked for direction, stop positions, colour and alpha. **Result: 48 of 48 match.** The old `main` matched 6 of 48.
+
+**Rule applied:**
+- Direction and stop order follow the Figma style, which is the design intent.
+- Colours follow the current NDS values.
+
+9 Figma styles still used legacy greys, so they were recoloured in Figma to the NDS values:
+- `gradient` × 6 now uses surface secondary to surface primary.
+- `overlay-gradient-primary-on-avatar-edit` in the 3 Dark modes now uses surface primary.
+
+Token changes:
+
+| Token | Sets | Change |
+|---|---|---|
+| `color.surface.gradient` | BASE Dark and Light | Stops now run `{color.surface.secondary}` 0% to `{color.surface.primary}` 100%, as in Figma. `$` references (which the build did not resolve) are replaced with `{}`, and the stray `;` is removed. |
+| `color.overlay.gradient` | BASE Dark and Light | 180deg changed to 0deg, as in Figma (40% black at the bottom, fading up) |
+| `color.overlay.gradient-on-avatar-edit` | BASE Dark and Light | Invalid `linear-gradient (` fixed. Values unchanged. |
+| `color.gradient.mk-card-gradient-1` | BASE Light, and **new in BASE Dark** | `to right` changed to `to left`, as in Figma. The Dark value is added: white, 10% to 0%. |
+| `color.gradient.mk-ako-card`, `mk-cas-cs-card`, `mk-wc-ako-card` | FTN, CP and PSK, Dark and Light | 15 broken references (`brand.*-brand-*`) replaced with `palette.brand.*`. The invalid `linear-gradient (` is fixed. FTN Light now uses violet. |
+
+`mk-icon-nav-gradient` already matched. The `mk-ai-border-*` solid stops (BASE Light) have no Figma style and are unchanged.
+
+Unresolved references across all sets: 15 before, **0** now.
