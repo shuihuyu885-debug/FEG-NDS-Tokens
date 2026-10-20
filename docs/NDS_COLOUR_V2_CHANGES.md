@@ -128,7 +128,7 @@ SafeBet is cross-brand and uses the same values in every brand:
 
 ## Not included, needs a decision
 
-- **`color.border.alpha-10` and `alpha-20` in BASE/Light.** Figma has white at 10% and 20% in Light mode, and the repo has black. White borders on a light surface look like a Figma mistake, so the repo keeps black for now. Please confirm which is correct.
+- ~~`color.border.alpha-10` and `alpha-20` in BASE/Light~~: resolved on 2026-10-20 (Figma corrected to black, see Update 3).
 - **LobBet.** The Brand collection has a LobBet mode, but `main` has no LobBet token sets. There is a separate `LobBet` branch. The LobBet palette tokens are included in Global; the LobBet semantic set is not.
 - **Typos in Figma names.** `color.surface.mk-offfer-card-time-badge` and `color.suface-alpha.primary-0` are written exactly as Figma names them so the sync matches. Renaming them should happen in Figma first.
 - **Stale references in Brand themes.** The Brand themes in `$themes.json` reference 48 BASE tokens with keys that no longer exist in the library. These were already there and are left unchanged.
@@ -136,7 +136,7 @@ SafeBet is cross-brand and uses the same values in every brand:
 
 ## How this was checked
 
-`scripts/resolve-tokens.mjs` resolves every token in every theme, including references, `rgba()` expressions and Tokens Studio modifiers. The results were compared with the resolved Figma value for each variable and mode. After the update, 574 of 576 colour values match. The 2 that do not match are the `alpha-10` and `alpha-20` borders listed above.
+`scripts/resolve-tokens.mjs` resolves every token in every theme, including references, `rgba()` expressions and Tokens Studio modifiers. The results were compared with the resolved Figma value for each variable and mode. After the update, 574 of 576 colour values matched. The remaining 2 (alpha borders) were resolved in Figma on 2026-10-20, so all 576 now match.
 
 ## Update 2 (2026-10-19): reconciliation after the parity audit
 
@@ -150,3 +150,12 @@ Figma was re-read live on 2026-10-19 (245 variables, fingerprint 3011441303, unc
   - The other residue (offer `mk-*` tokens, `palette.mk.*`, marketing gradients) is legacy and is retained.
 
 Every added or changed token is listed with its Figma evidence in [`change-manifest.csv`](change-manifest.csv).
+
+## Update 3 (2026-10-20): alpha borders resolved in Figma
+
+Design confirmed that `color.border.alpha-10` and `alpha-20` should be **black** in Light mode, at 10% and 20%. Dark mode stays white.
+
+- Figma variables 5165:3730 and 5165:3729 were corrected in Light mode. The new library fingerprint is 434057591.
+- The GitHub values were already black, so no token change was needed.
+
+The branch now matches Figma on **576 of 576** comparable entries. LobBet is excluded because it has no token set.
