@@ -39,7 +39,7 @@
         "type": "color"
       },
       "gradient": {
-        "value": "linear-gradient(0deg, {color.surface.secondary} 0%, {color.surface.primary} 100%)",
+        "value": "linear-gradient(0deg, {color.surface.primary} 0%, {color.surface.secondary} 100%)",
         "type": "color"
       },
       "inverted-bw": {
@@ -271,7 +271,7 @@
         "type": "color"
       },
       "gradient": {
-        "value": "linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
+        "value": "linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)",
         "type": "color"
       },
       "gradient-on-avatar-edit": {
@@ -424,7 +424,7 @@
         }
       },
       "mk-card-gradient-1": {
-        "value": "linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+        "value": "linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
         "type": "color"
       }
     },

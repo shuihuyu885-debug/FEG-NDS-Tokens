@@ -164,9 +164,7 @@ The branch now matches Figma on **576 of 576** comparable entries. LobBet is exc
 
 The gradient tokens now match the 48 gradient paint styles in the Figma library (8 gradients × FTN, CP and PSK × Dark and Light). Each one was checked for direction, stop positions, colour and alpha. **Result: 48 of 48 match.** The old `main` matched 6 of 48.
 
-**Rule applied:**
-- Direction and stop order follow the Figma style, which is the design intent.
-- Colours follow the current NDS values.
+**Rule applied:** see Update 5. Direction follows the Documentation page; colours follow the current NDS values.
 
 9 Figma styles still used legacy greys, so they were recoloured in Figma to the NDS values:
 - `gradient` × 6 now uses surface secondary to surface primary.
@@ -185,3 +183,24 @@ Token changes:
 `mk-icon-nav-gradient` already matched. The `mk-ai-border-*` solid stops (BASE Light) have no Figma style and are unchanged.
 
 Unresolved references across all sets: 15 before, **0** now.
+
+## Update 5 (2026-10-21): gradient directions follow the Documentation page
+
+The Documentation page of the Figma library shows reference swatches for `color.surface.gradient` and `color.overlay.gradient` in every brand and theme. In both cases they matched the **original repo direction** and contradicted the gradient styles, which had been copied from the legacy library. The Documentation page is now the direction standard. This replaces the "follow the style" rule used in Update 4.
+
+| Token | Final value | Change from Update 4 |
+|---|---|---|
+| `color.surface.gradient` | `linear-gradient(0deg, {color.surface.primary} 0%, {color.surface.secondary} 100%)` | Stop order back to primary at the bottom |
+| `color.overlay.gradient` | `linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)` | Back to 180deg |
+| `color.gradient.mk-card-gradient-1` | `linear-gradient(to right, ...)` (Light and Dark) | Back to `to right`. It has no Documentation reference; the original direction is kept because the styles proved unreliable on direction. The Dark value stays. |
+
+The fixes from Update 4 remain in place: the `{}` references, the removed `;` and the new Dark value.
+
+In Figma, 18 styles were corrected to match:
+- `gradient` ×6: stop order swapped.
+- `overlay-gradient` ×6: flipped to run top to bottom.
+- `mk-card-gradient-1` ×6: flipped to run left to right.
+
+Colours were not changed.
+
+Result: **48 of 48** gradients match Figma, verified against a live read. Colour variables: 576 of 576.
