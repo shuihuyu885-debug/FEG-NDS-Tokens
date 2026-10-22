@@ -31,7 +31,21 @@
       },
       "mk-surface-offer-card-badge": {
         "value": "{palette.mk.badge-red}",
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.surface.offer-badge (Figma VariableID:5449:3730). Do not use for new work; retirement pending approval."
+      },
+      "sub-header-item": {
+        "value": "{palette.brand.psk-primary-dark}",
         "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.red}",
+        "type": "color"
+      },
+      "safebet": {
+        "value": "{palette.lime.10}",
+        "type": "color",
+        "description": "SafeBet surface, cross-brand, opaque. Dark modes (FTN, CP, PSK Dark, LobBet): palette/lime/10. Light modes: palette/lime/140. Colour Foundation V2."
       }
     },
     "content": {
@@ -80,7 +94,7 @@
         "type": "color"
       },
       "on-money": {
-        "value": "$palette.base.black",
+        "value": "$palette.base.white",
         "type": "color"
       },
       "on-win": {
@@ -97,11 +111,34 @@
       },
       "mk-content-offer-card-badge": {
         "value": "{palette.mk.badge-red}",
-        "type": "color"
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.content.offer-badge (Figma VariableID:5449:3731). Do not use for new work; retirement pending approval."
       },
       "mk-content-offer-card-badge-active": {
         "value": "{palette.base.white}",
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.content.on-offer-badge (Figma VariableID:5449:3733). Do not use for new work; retirement pending approval."
+      },
+      "on-sub-header": {
+        "value": "{palette.grey.100}",
         "type": "color"
+      },
+      "on-sub-header-active": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.red}",
+        "type": "color"
+      },
+      "on-offer-badge": {
+        "value": "{palette.base.white}",
+        "type": "color"
+      },
+      "on-safebet": {
+        "value": "{palette.base.white}",
+        "type": "color",
+        "description": "Text on the SafeBet surface. Dark modes: palette/base/white on lime/10. Light modes: palette/lime/10 on lime/140. Colour Foundation V2."
       }
     },
     "surface-hover": {
@@ -150,6 +187,11 @@
       "live": {
         "value": "$palette.green.20",
         "type": "color"
+      },
+      "safebet": {
+        "value": "{palette.lime.120}",
+        "type": "color",
+        "description": "SafeBet label, icon and border, cross-brand. Dark: palette/lime/120. Light: palette/lime/30 (lime/120 fails on white). Colour Foundation V2."
       }
     },
     "meaning-hover": {
@@ -159,8 +201,8 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "lighten",
-              "value": "{scale.hsl-dark}",
+              "type": "darken",
+              "value": "{scale.hsl-light}",
               "space": "hsl"
             }
           }
@@ -190,25 +232,34 @@
         "type": "color"
       },
       "selected": {
-        "value": "{palette.brand.psk-primary}",
+        "value": "{palette.brand.psk-primary-light-content}",
         "type": "color"
       },
       "mk-border-offer-badge": {
         "value": "{palette.mk.badge-red}",
+        "type": "color",
+        "description": "Legacy (Mooncake-era) token, retained for compatibility. Canonical UDS semantic: color.border.offer-badge (Figma VariableID:5449:3732). Do not use for new work; retirement pending approval."
+      },
+      "brand": {
+        "value": "{palette.brand.psk-primary-light-content}",
+        "type": "color"
+      },
+      "offer-badge": {
+        "value": "{palette.badge.red}",
         "type": "color"
       }
     },
     "gradient": {
       "mk-ako-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.1) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.psk-primary} , 0) 0%, rgba( {palette.brand.psk-primary} , 0.1) 100%)",
         "type": "color"
       },
       "mk-cas-cs-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.25) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.psk-primary} , 0) 0%, rgba( {palette.brand.psk-primary} , 0.25) 100%)",
         "type": "color"
       },
       "mk-wc-ako-card": {
-        "value": "linear-gradient (90deg, rgba( {brand.psk-brand-primary} , 0) 0%, rgba( {brand.psk-brand-primary} , 0.2) 100%)",
+        "value": "linear-gradient(90deg, rgba( {palette.brand.psk-primary} , 0) 0%, rgba( {palette.brand.psk-primary} , 0.2) 100%)",
         "type": "color"
       },
       "mk-icon-nav-gradient": {

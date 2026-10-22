@@ -82,16 +82,20 @@
         "value": "#E8B20B",
         "type": "color"
       },
+      "ftn-sub-header": {
+        "value": "#FAC228",
+        "type": "color"
+      },
       "ftn-secondary-light": {
-        "value": "#1F3EFF",
+        "value": "{palette.violet.120}",
         "type": "color"
       },
       "ftn-secondary": {
-        "value": "#0125FF",
+        "value": "{palette.violet.40}",
         "type": "color"
       },
       "ftn-secondary-dark": {
-        "value": "#00169E",
+        "value": "{palette.violet.10}",
         "type": "color"
       },
       "casa-primary-light": {
@@ -105,6 +109,11 @@
       "casa-primary-dark": {
         "value": "#991c1f",
         "type": "color"
+      },
+      "casa-yellow": {
+        "value": "#FFEC00",
+        "type": "color",
+        "description": "Official Casa yellow (Casa visual identity 2024, p.6). Colour Foundation V2."
       },
       "psk-primary-light-content": {
         "value": "#75A6FF",
@@ -123,7 +132,7 @@
         "type": "color"
       },
       "psk-secondary": {
-        "value": "#EB0011",
+        "value": "#FF0013",
         "type": "color"
       },
       "psk-secondary-light": {
@@ -132,6 +141,26 @@
       },
       "psk-secondary-dark": {
         "value": "#D4000E",
+        "type": "color"
+      },
+      "lob-primary": {
+        "value": "#1B8751",
+        "type": "color"
+      },
+      "lob-primary-dark": {
+        "value": "#167043",
+        "type": "color"
+      },
+      "lob-primary-light": {
+        "value": "#2AD47F",
+        "type": "color"
+      },
+      "lob-mint": {
+        "value": "#4CE588",
+        "type": "color"
+      },
+      "lob-green": {
+        "value": "#0F2E22",
         "type": "color"
       }
     },
@@ -375,6 +404,10 @@
             }
           }
         }
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
       }
     },
     "red": {
@@ -1004,6 +1037,164 @@
       "live-green": {
         "value": "#17CF2F",
         "type": "color"
+      }
+    },
+    "badge": {
+      "green": {
+        "value": "#C8E651",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#256FD2",
+        "type": "color"
+      },
+      "red": {
+        "value": "#DD3107",
+        "type": "color"
+      }
+    },
+    "violet": {
+      "10": {
+        "value": "#260C60",
+        "type": "color",
+        "description": "Official Fortuna Dark Violet (Fortuna toolkit 2026, p.12). Colour Foundation V2."
+      },
+      "20": {
+        "value": "#410DA4",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "30": {
+        "value": "#4B0CBF",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "40": {
+        "value": "#5507DA",
+        "type": "color",
+        "description": "Official Fortuna Electric Violet (Fortuna toolkit 2026, p.12). Colour Foundation V2."
+      },
+      "50": {
+        "value": "#600DF3",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "60": {
+        "value": "#6519FC",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "70": {
+        "value": "#7352FC",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "80": {
+        "value": "#775FF6",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "90": {
+        "value": "#7C6CF1",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "100": {
+        "value": "#897FF2",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "110": {
+        "value": "#9791F4",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "120": {
+        "value": "#A6A3F6",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "130": {
+        "value": "#B7B6F8",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      },
+      "140": {
+        "value": "#ECEDFD",
+        "type": "color",
+        "description": "Generated UI shade (OKLCH, lightness matched to palette/blue). Colour Foundation V2."
+      }
+    },
+    "lime": {
+      "10": {
+        "value": "#3E4719",
+        "type": "color",
+        "description": "Anchor. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "20": {
+        "value": "#4A541E",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "30": {
+        "value": "#566222",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "40": {
+        "value": "#627027",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "50": {
+        "value": "#6D7D2C",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "60": {
+        "value": "#798B31",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "70": {
+        "value": "#859936",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "80": {
+        "value": "#91A63B",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "90": {
+        "value": "#9DB43F",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "100": {
+        "value": "#A9C244",
+        "type": "color",
+        "description": "Generated between lime/10 and lime/110. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "110": {
+        "value": "#B8D44A",
+        "type": "color",
+        "description": "Anchor. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "120": {
+        "value": "#C8E651",
+        "type": "color",
+        "description": "Anchor: SafeBet lime, same value as palette/badge/green. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "130": {
+        "value": "#DFF092",
+        "type": "color",
+        "description": "Anchor. Lime scale for SafeBet. Colour Foundation V2."
+      },
+      "140": {
+        "value": "#F3F9CE",
+        "type": "color",
+        "description": "Anchor. Lime scale for SafeBet. Colour Foundation V2."
       }
     }
   },

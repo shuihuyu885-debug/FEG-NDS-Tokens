@@ -39,7 +39,7 @@
         "type": "color"
       },
       "gradient": {
-        "value": "linear-gradient(0deg, $color.surface.primary 0%, $color.surface.secondary 100%);",
+        "value": "linear-gradient(0deg, {color.surface.primary} 0%, {color.surface.secondary} 100%)",
         "type": "color"
       },
       "inverted-bw": {
@@ -47,7 +47,7 @@
         "type": "color"
       },
       "input": {
-        "value": "$palette.grey.110",
+        "value": "$palette.grey.120",
         "type": "color"
       },
       "input-error": {
@@ -63,6 +63,10 @@
         "type": "color"
       },
       "mk-offer-card-time-badge": {
+        "value": "{color.surface.primary}",
+        "type": "color"
+      },
+      "mk-offfer-card-time-badge": {
         "value": "{color.surface.primary}",
         "type": "color"
       }
@@ -197,7 +201,7 @@
         "type": "color"
       },
       "input": {
-        "value": "$palette.grey.90",
+        "value": "$palette.grey.80",
         "type": "color"
       },
       "input-error": {
@@ -253,7 +257,7 @@
         "type": "color"
       },
       "gradient-on-avatar-edit": {
-        "value": "linear-gradient (0deg, rgba( {color.surface.primary} , 0.7) 0%, rgba( {color.surface.primary} , 1) 100%)",
+        "value": "linear-gradient(0deg, rgba( {color.surface.primary} , 0.7) 0%, rgba( {color.surface.primary} , 1) 100%)",
         "type": "color"
       }
     },
@@ -338,6 +342,47 @@
               }
             }
           }
+        },
+        "regular": {
+          "default": {
+            "value": "{palette.base.black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.08",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover": {
+            "value": "{palette.base.black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "disabled": {
+            "value": "{palette.base.black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.08",
+                  "space": "lch"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -375,6 +420,21 @@
       "mk-card-gradient-1": {
         "value": "linear-gradient(to right, rgba(53, 53, 53, 0.1) 0%, rgba(53, 53, 53, 0) 100%)",
         "type": "color"
+      }
+    },
+    "suface-alpha": {
+      "primary-0": {
+        "value": "{color.surface.primary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
       }
     }
   },
