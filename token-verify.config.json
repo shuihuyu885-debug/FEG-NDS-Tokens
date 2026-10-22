@@ -1,0 +1,144 @@
+{
+  "sources": {
+    "figma_library_url": "https://www.figma.com/design/RKduL8UHSJyIMVyotTzSZS/NDS---Tokens---Variables-library",
+    "design_repo": {
+      "url": "https://github.com/shuihuyu885-debug/FEG-NDS-Tokens",
+      "default_ref": "main",
+      "tokens_path": "themes",
+      "source_file": "figma-source.json"
+    },
+    "output_root_default": "dist"
+  },
+  "naming": {
+    "prefix": "--",
+    "separator": "-",
+    "lowercase": true,
+    "strip_leading_segments": 0
+  },
+  "figma": {
+    "themes": {
+      "FTN Dark": [
+        {
+          "collection": "Theme",
+          "mode": "Dark"
+        },
+        {
+          "collection": "Brand",
+          "mode": "FTN Dark"
+        }
+      ],
+      "FTN Light": [
+        {
+          "collection": "Theme",
+          "mode": "Light"
+        },
+        {
+          "collection": "Brand",
+          "mode": "FTN Light"
+        }
+      ],
+      "CP Dark": [
+        {
+          "collection": "Theme",
+          "mode": "Dark"
+        },
+        {
+          "collection": "Brand",
+          "mode": "CP Dark"
+        }
+      ],
+      "CP Light": [
+        {
+          "collection": "Theme",
+          "mode": "Light"
+        },
+        {
+          "collection": "Brand",
+          "mode": "CP Light"
+        }
+      ],
+      "PSK Dark": [
+        {
+          "collection": "Theme",
+          "mode": "Dark"
+        },
+        {
+          "collection": "Brand",
+          "mode": "PSK Dark"
+        }
+      ],
+      "PSK Light": [
+        {
+          "collection": "Theme",
+          "mode": "Light"
+        },
+        {
+          "collection": "Brand",
+          "mode": "PSK Light"
+        }
+      ]
+    },
+    "alias_mode_fallbacks": {},
+    "include_hidden_from_publishing": false
+  },
+  "design_json": {
+    "types": [
+      "color",
+      "gradient"
+    ],
+    "themes": {
+      "FTN Dark": "FTN Dark",
+      "FTN Light": "FTN Light",
+      "CP Dark": "CP Dark",
+      "CP Light": "CP Light",
+      "PSK Dark": "PSK Dark",
+      "PSK Light": "PSK Light"
+    },
+    "supplement": [
+      "--color-*gradient*"
+    ]
+  },
+  "output": {
+    "only_prefixes": [
+      "--color-"
+    ],
+    "themes": {
+      "FTN Dark": {
+        "files": [
+          "**/ftn.css"
+        ],
+        "selector": "\\.ftn\\.dark(?![\\w-])"
+      },
+      "FTN Light": {
+        "files": [
+          "**/ftn.css"
+        ],
+        "selector": "\\.ftn\\.light(?![\\w-])"
+      },
+      "CP Dark": {
+        "files": [
+          "**/cp.css"
+        ],
+        "selector": "\\.cp\\.dark(?![\\w-])"
+      },
+      "CP Light": {
+        "files": [
+          "**/cp.css"
+        ],
+        "selector": "\\.cp\\.light(?![\\w-])"
+      },
+      "PSK Dark": {
+        "files": [
+          "**/psk.css"
+        ],
+        "selector": "\\.psk\\.dark(?![\\w-])"
+      },
+      "PSK Light": {
+        "files": [
+          "**/psk.css"
+        ],
+        "selector": "\\.psk\\.light(?![\\w-])"
+      }
+    }
+  }
+}
