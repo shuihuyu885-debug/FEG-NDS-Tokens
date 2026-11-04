@@ -259,7 +259,7 @@
     },
     "overlay": {
       "scrim": {
-        "value": "rgba($palette.base.black, $opacity.scrim)",
+        "value": "rgba({palette.base.black}, {opacity.scrim})",
         "type": "color"
       },
       "navigation": {

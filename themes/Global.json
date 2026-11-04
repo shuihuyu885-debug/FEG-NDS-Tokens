@@ -1376,7 +1376,7 @@
   },
   "line-height": {
     "micro": {
-      "value": "{font-size.micro}* {scale.line-height.for-body}",
+      "value": "0.875rem",
       "type": "lineHeights"
     },
     "xsmall": {
@@ -1396,7 +1396,7 @@
       "type": "lineHeights"
     },
     "large": {
-      "value": "{font-size.large}* {scale.line-height.for-body}",
+      "value": "1.75rem",
       "type": "lineHeights"
     },
     "large-copy": {
